@@ -1,0 +1,58 @@
+body {
+  background-color: #444;
+  font-family: "Teko", sans-serif;
+}
+
+.navbar {
+  background-color: #222;
+  color: #fff;
+}
+
+.section-title {
+  color: #ef1;
+}
+
+.batman-logo {
+  background-color: #ef1;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #000;
+  color: #ef1;
+}
+
+.nav-link {
+  color: #ef1;
+}
+
+.nav-link:hover {
+  color: #ef1;
+}
+
+.t-w {
+  color: #fff;
+}
+
+.t-w-shadow {
+  text-shadow: 2px 2px 2px #000;
+}
+
+.t-b {
+  color: #000;
+}
+
+#sobre-os-filmes {
+  background-color: #ccc;
+}
+
+#contato {
+  background-color: #aaa;
+}
+
+textarea {
+  resize: none;
+}
+
+#rodape {
+  background-color: #ddd;
+}

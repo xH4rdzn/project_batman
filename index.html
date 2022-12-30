@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Batman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Teko&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <div class="container">
+      <img src="/icons/icons8-novo-batman-52.svg" alt="" class="batman-logo">
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menu">
+        <ul class="nav nav-pills">
+          <li class="nav-item fw-bold"><a class="nav-link fs-5 active" href="#home">
+              Home</a></li>
+          <li class="nav-item fw-bold"><a class="nav-link fs-5" href="#produtos">
+              Produtos</a></li>
+          <li class="nav-item fw-bold"><a class="nav-link fs-5" href="#contato">
+              Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+    <section id="home">
+
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2500">
+            <img src="/imagens/slide 1.jpg" alt="" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="/imagens/slide 2.png" alt="" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="/imagens/slide 3.jpg" alt="" class="d-block w-100">
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+          </div>
+        </div>
+    </section>
+    <section id="produtos">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title t-w-shadow t-w text-center fs-2 pt-3 pb-5">Produtos</h2>
+        </div>
+        <div class="row">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column">
+              <button data-bs-toggle="tab" data-bs-target="#filmes" type="button" class='fw-bold text-start btn btn-warning mb-1 text-colored active '>Filmes</button>
+              <button data-bs-toggle="tab" data-bs-target="#jogos" type="button" class='fw-bold text-start btn btn-warning mb-1 text-colored '>Jogos</button>
+              <button data-bs-toggle="tab" data-bs-target="#series" type="button" class='fw-bold text-start btn btn-warning mb-1 text-colored '>Séries</button>
+            </nav>
+          </aside>
+          <div class="col-md-10">
+            <div class="tab-content">
+              <div class="tab-pane active" id="filmes">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman Begins</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/capas/Batman_begins.jpg" alt="Capa do filme Batman Begins" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Ver Filme</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman: O cavaleiro das trevas parte 1</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/capas/batman_cavaleiro_das_trevas_part1.jpg" alt="Capa do filme Batman: O cavaleiro das trevas" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Ver Filme</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman: O cavaleiro das trevas parte 2</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/capas/batman_cavaleiro_das_trevas_part2.jpg" alt="Capa do filme Batman: O cavaleiro das trevas parte 2" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Ver Filme</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman: O cavaleiro das trevas ressurge</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/capas/batman_cavaleiro_das_trevas_ressurge.jpg" alt="Capa do filme Batman: O cavaleiro das trevas ressurge" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Ver Filme</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman vs. Superman</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/capas/Batman_v_Superman.jpg" alt="Capa do filme Batman vs. SuperMan" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Ver Filme</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Liga da Justiça</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/capas/ligadajustiça.jpg" alt="Capa do filme Liga da Justiça" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Ver Filme</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">The Batman</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/capas/The_Batman.jpg" alt="Capa do filme O Batman" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Ver Filme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="jogos">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman Arkham Asylum</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/jogos/Batman_Arkham_Asylum.jpg" alt="Capa do jogo Batman Arkham Asylum" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Comprar Jogo</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman Arkham City</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/jogos/Batman_arkham_city.jpg" alt="Capa do jogo Batman Arkham City" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Comprar jogo</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman Arkham Knight</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/jogos/Batman_Arkham_Knight.jpg" alt="Capa do jogo Batman Arkham Knight" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Comprar jogo</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman Arkham Origins</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/jogos/390px-Batman_arkham_origins.jpg" alt="Capa do jogo Batman Arkham Origins" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Comprar jogo</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Batman Arkham Origins Blackgate</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/jogos/375px-Batman_Arkham_Origins_Blackgate.jpg" alt="Capa do jogo Batman Arkham Origins Blackgate" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Comprar jogo</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="series">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="card-title">Gotham</h2>
+                      </div>
+                      <div class="card-body">
+                        <img src="/Series/375px-Gotham_Logo.jpg" alt="Capa da serie Gotham" class="d-block w-100">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi modi maiores suscipit ullam. Voluptas quis facilis unde, esse porro perspiciatis blanditiis inventore? Quod cupiditate fugiat dignissimos sed sit ad!</p>
+                      </div>
+                      <div class="card-footer">
+                        <button type="button" class="btn btn-warning">Ver Série</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contato">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center mt-3 t-w t-w-shadow">Entre em contato:</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <form action="">
+              <label for="nome" class="form-label mt-2 mb-2">Seu nome:</label>
+              <input type="text" id="nome" class="form-control mt-2 mb-2" required>
+              <label for="email" class="form-label mt-2 mb-2">Seu Email:</label>
+              <input type="email" id="email" class="form-control" required>
+              <label for="tel" class="form-label mt-2 mb-2">Seu Telefone:</label>
+              <input type="tel" id="tel" class="form-control">
+              <label for="mensagem" class="form-label mt-2 mb-2">Sua Mensagem:</label>
+              <textarea class="form-control mt-2 mb-2" id="mensagem"></textarea>
+              <button type="submit" class="btn btn-warning mt-3 mb-3">Enviar mensagem</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="rodape" class="p-1">
+      <h3 class="text-center">&copy; Todos os direitos reservados.</h3>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
